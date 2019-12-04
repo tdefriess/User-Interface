@@ -101,6 +101,22 @@ nav a {
 	margin-bottom: 40px;
 }
 
+/* Stretch Goal: Fixed Nav Bar
+	 Comment out for Minimum Viable Product*/
+
+.tag {
+	height: 300px;
+	padding-top: 100px;
+}
+
+.nav-header {
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 2;
+}
+
 /* Tag format */
 
 .tag, header img {
