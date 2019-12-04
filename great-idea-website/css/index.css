@@ -83,17 +83,18 @@ h1, h2, h3, h4, h5 {
 	margin-top: 20px;
 	position: relative;
 	top: 8px;
+	right: 50px;
 }
 
 nav {
-	margin-left: 6%;
+	margin-left: 9%;
 }
 
 nav a {
 	text-decoration: none;
 	color: lightgrey;
 	display: inline-block;
-	width: 16%;
+	width: 14%;
 }
 
 .nav-header {
@@ -168,4 +169,33 @@ h1 {
 	width: 82%;
 	margin: 0 auto;
 	margin-top: 30px;
+}
+
+.bottom-section div {
+	display: inline-block;
+	width: 30%;
+	margin-left: 4%;
+}
+
+#services {
+	margin-left: 0;
+}
+
+/* Address */
+
+#contact {
+	width: 82%;
+	margin: 40px auto;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	text-align: center;
+	height: 100px;
 }
