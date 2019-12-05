@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,154 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Navigation header */
+
+* {
+	border: 1px solid black;
+}
+
+.nav-header nav, .logo {
+	display: inline-block;
+}
+
+.nav-header nav {
+	width: 70%;
+	margin-bottom: 15px;
+}
+
+.logo {
+	margin-top: 20px;
+	position: relative;
+	top: 8px;
+	right: 50px;
+}
+
+nav {
+	margin-left: 9%;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	display: inline-block;
+	width: 14%;
+}
+
+.nav-header {
+	margin-bottom: 40px;
+}
+
+/* Stretch Goal: Fixed Nav Bar
+	 Comment out for Minimum Viable Product*/
+
+.tag {
+	height: 300px;
+	padding-top: 100px;
+}
+
+.nav-header {
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+/* Tag format */
+
+.tag, header img {
+	display: inline-block;
+	width: 40%;
+}
+
+.tag {
+	margin 50%;
+	text-align: center;
+	margin: 0 4% 0 8%;
+	position: relative;
+	bottom: 100px;
+}
+
+h1 {
+	font-size: 65px;
+	line-height: .8em;
+
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+	padding: 0 20px;
+	display: inline-block;
+}
+
+.button {
+	padding: 10px;
+	border: 1px solid black;
+	width: 200px;
+	margin-left: 100px;
+}
+
+.button:hover {
+	background-color: lightgrey;
+}
+
+.top-section {
+	border-top: 1px solid black;
+	width: 82%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.top-section div {
+	display: inline-block;
+	width: 47%;
+	padding: 30px 0;
+}
+
+#about {
+	margin-left: 5%;
+}
+
+.middle-img {
+	width: 82%;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Bottom section */
+
+.bottom-section {
+	width: 82%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.bottom-section div {
+	display: inline-block;
+	width: 30%;
+	margin-left: 4%;
+}
+
+#services {
+	margin-left: 0;
+}
+
+/* Address */
+
+#contact {
+	width: 82%;
+	margin: 40px auto;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	text-align: center;
+	height: 100px;
+}
